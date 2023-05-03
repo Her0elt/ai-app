@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 from predict import predict
 
+
+
 def replace_all(text, dic):
     new_text = ""
     for letter in text:
